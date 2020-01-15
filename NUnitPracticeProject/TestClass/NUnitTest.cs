@@ -77,7 +77,8 @@ namespace NUnitTest
             LogInPageRegistrationPage.PasswordField(driver).SendKeys("Test@123");
             LogInPageRegistrationPage.LogInButton(driver).Click();
 
-            //Assert.IsTrue();
+            Assert.IsTrue();
+
 
         }
 
